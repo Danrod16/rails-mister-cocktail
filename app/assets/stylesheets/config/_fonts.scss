@@ -5,6 +5,18 @@
 $body-font: "Open Sans", "Helvetica", "sans-serif";
 $headers-font: "Raleway", "Helvetica", "sans-serif";
 
+a {
+    color: white!important;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color:#00A0C6!important;
+     text-decoration:none;
+     cursor:pointer;
+}
+
 // To use a font file (.woff) uncomment following lines
 // @font-face {
 //   font-family: "Font Name";

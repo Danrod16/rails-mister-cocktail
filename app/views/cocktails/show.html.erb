@@ -8,8 +8,10 @@
 <%= simple_form_for [@cocktail, @dose] do |f| %>
   <%= f.association :ingredient %>
   <%= f.input :description %>
-  <%= f.submit class: "btn btn-primary" %>
+  <%= f.submit class: "btn btn-ghost" %>
 <% end %>
+
+<p> <%= link_to "Delete", cocktail_path(cocktail[:id]), method: :delete, data: { confirm: "Are you sure?" } %></p>
 
 <%= link_to '< Back to cocktails', cocktails_path%>
 
