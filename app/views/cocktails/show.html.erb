@@ -11,7 +11,7 @@
   <%= f.submit class: "btn btn-ghost" %>
 <% end %>
 
-<p> <%= link_to "Delete", cocktail_path(cocktail[:id]), method: :delete, data: { confirm: "Are you sure?" } %></p>
+<p> <%= link_to "Delete", cocktail_path(@cocktail[:id]), method: :delete, data: { confirm: "Are you sure?" } %></p>
 
 <%= link_to '< Back to cocktails', cocktails_path%>
 
