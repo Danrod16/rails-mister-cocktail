@@ -29,7 +29,6 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'cloudinary', '~> 1.9.1'
-
 gem 'carrierwave', '~> 1.2'
 
 gem 'autoprefixer-rails'
